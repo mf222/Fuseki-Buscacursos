@@ -1,4 +1,4 @@
-# Fuseki-Buscacursos
+# Fuseki Cursos
 Archivos necesarios para montar el endpoint de cursos.
 
 ## Levantar servidor con datos en Fuseki Jena
