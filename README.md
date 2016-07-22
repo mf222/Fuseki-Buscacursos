@@ -26,3 +26,6 @@ export PATH=$PATH:$JENAROOT/bin
 ./fuseki-server --update --loc <Directorio donde se creo el TDB> /ds
 ```
 
+## Referencias
+* [Documentación](https://jena.apache.org/documentation/serving_data/)
+* [Video Tutorial](https://www.youtube.com/watch?v=5-UfFV5XmTI)
