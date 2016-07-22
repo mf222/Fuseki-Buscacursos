@@ -1,7 +1,7 @@
 # Fuseki-Buscacursos
 Archivos necesarios para correr y crear la base de datos RDF de cursos.
 
-# Levantar servidor con datos
+## Levantar servidor con datos en Fuseki Jena
 
 * Instalar Jena (apache-jena-3.1.0) descargar y descomprimir
 
@@ -25,6 +25,7 @@ export PATH=$PATH:$JENAROOT/bin
 ```
 ./fuseki-server --update --loc <Directorio donde se creo el TDB> /ds
 ```
+_Para crear el TDB ver [el proyecto JenaCourse](https://github.com/mf222/Fuseki-Buscacursos/tree/master/JenaCourse)_
 
 ## Referencias
 * [Documentación](https://jena.apache.org/documentation/serving_data/)
