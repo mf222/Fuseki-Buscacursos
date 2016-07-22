@@ -30,3 +30,4 @@ _Importante: Para crear el TDB ver [el proyecto de referencia en JenaCourse](htt
 ## Referencias
 * [Documentación](https://jena.apache.org/documentation/serving_data/)
 * [Video Tutorial](https://www.youtube.com/watch?v=5-UfFV5XmTI)
+* [Descargas Jena](https://jena.apache.org/download/)
