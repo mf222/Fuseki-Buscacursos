@@ -1,31 +1,31 @@
 # Fuseki-Buscacursos
-Archivos necesarios para correr y crear la base de datos RDF de cursos.
+Archivos necesarios para montar el endpoint de cursos.
 
 ## Levantar servidor con datos en Fuseki Jena
 
-* Instalar Jena (apache-jena-3.1.0) descargar y descomprimir
+* Instalar Jena (apache-jena-3.1.0), descargar y descomprimir.
 
-* Registrar las variables de entorno
+* Registrar las variables de entorno:
 ```
-export JENAROOT=<Directorio donde se encuentre>/apache-jena-3.1.0
-export JENA_HOME=<Directorio donde se encuentre>/apache-jena-3.1.0
-export PATH=$PATH:$JENAROOT/bin
-```
-
-* Para comprobar la instalación `sparql --version`
-
-* Instalar Fuseki (apache-jena-fuseki-2.4.0) descarga y entrar al directorio
-
-* Se corre el servidor con
-```
- ./fuseki-server --update --mem /ds
+$ export JENAROOT=<Directorio donde se encuentre>/apache-jena-3.1.0
+$ export JENA_HOME=<Directorio donde se encuentre>/apache-jena-3.1.0
+$ export PATH=$PATH:$JENAROOT/bin
 ```
 
-* Para correr con los datos generados en TBD
+* Para comprobar la instalación `sparql --version`.
+
+* Instalar Fuseki (apache-jena-fuseki-2.4.0), descarga y entrar al directorio.
+
+* Una vez en la carpteta, se corre el servidor con:
 ```
-./fuseki-server --update --loc <Directorio donde se creo el TDB> /ds
+$ ./fuseki-server --update --mem /ds
 ```
-_Para crear el TDB ver [el proyecto JenaCourse](https://github.com/mf222/Fuseki-Buscacursos/tree/master/JenaCourse)_
+
+* En cambio para correr con los datos generados en TBD se ejecuta el siguiente comando:
+```
+$ ./fuseki-server --update --loc <Directorio donde se creo el TDB> /ds
+```
+_Importante: Para crear el TDB ver [el proyecto de referencia en JenaCourse](https://github.com/mf222/Fuseki-Buscacursos/tree/master/JenaCourse)_
 
 ## Referencias
 * [Documentación](https://jena.apache.org/documentation/serving_data/)
